@@ -33,7 +33,7 @@ dependencies {
 
     // MixinSquared
     include(implementation(
-        annotationProcessor("com.bawnorton.mixinsquared:mixinsquared-fabric:${project.property("mixinsquared_version")}")!!
+        annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:${project.property("mixinsquared_version")}")!!
     )!!)
 }
 
